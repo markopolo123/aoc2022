@@ -1,0 +1,10 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  solve:
+    dir: day01
+    cmds:
+      - poetry run python main.py
+    silent: true
